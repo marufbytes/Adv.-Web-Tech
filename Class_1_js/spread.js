@@ -5,8 +5,6 @@ function spreadTest(a,b,c,d){
 }
 console.log(spreadTest(...spArr));
 
-
-
 //rest
 let r1=10;
 let r2=20;

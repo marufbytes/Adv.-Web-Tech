@@ -1,21 +1,6 @@
-class Animal {
-    constructor(name,sound){
-        this.name=name;
-        this.sound=sound;
-    }
+const spArr = [10,20,30,40];
 
-    bark(){
-        console.log(this.sound);
-    }
-
-    showDetails(){
-        console.log(`name: ${this.name}`)
-    }
+function spreadTest(a,b,c,d){
+    return a+b+c+d;
 }
-
-class Panda extends Animal{
-    constructor(name, sound, fabFood){
-        super(name,sound)
-        this.fabFood=fabFood;
-    }
-}
+console.log(spreadTest(...spArr))
