@@ -10,7 +10,7 @@ class Animal{
         console.log(`name: ${this.name}, sound: ${this.sound}`);
     }
 
-    testAbstract()
+    testAbstract()              //Bujhi nai
     {
         throw console.error;
     }

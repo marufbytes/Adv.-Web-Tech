@@ -40,6 +40,7 @@ console.log(person.city)  //undefined
 console.log(person.address);
 console.log(person.address.city);
 console.log(person["name"]);
+
 person.info();
 person.info2();  //Arrow function dosen't work with "this" keyword
 person.info3();
